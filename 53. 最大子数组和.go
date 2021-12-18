@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 const (
 	MAX_INT = 0x3f3f3f3f
 	MIN_INT = -MAX_INT
@@ -28,8 +26,8 @@ func maxSubArray(nums []int) int {
 	return maxSum
 }
 
-func main() {
-	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
-	rst := maxSubArray(nums)
-	fmt.Print(rst)
-}
+// func main() {
+// 	nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+// 	rst := maxSubArray(nums)
+// 	fmt.Print(rst)
+// }
